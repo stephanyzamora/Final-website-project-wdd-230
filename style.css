@@ -1,0 +1,49 @@
+body {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: #0ca6ee;
+}
+
+body a {
+    color: #f7bf0a;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    color: #fd7d33da;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 500px;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: #bbf5ffad;
+    color: #0a85be;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    float: right;
+}
+
+ul li {
+    font-size: .8rem;
+}
+
+footer {
+    font-size: .8rem;
+}
