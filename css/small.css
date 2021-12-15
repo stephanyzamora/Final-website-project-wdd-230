@@ -48,10 +48,21 @@ footer a:hover {
 nav {
   background-color: #1b4965;
 }
-.row > div{
+.grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
     background: #62b6cb;
     padding: 30px;
     border-top: 8px solid #BC9320;
+    padding: 15px;
+    grid-gap: 60px;
+    align-items: center;
+  }
+  .col1{
+    border-left:4px #494949;
+  }
+  .col2{
+    border-left:4px  #494949;
   }
   input[type="submit"] {
     border: 4px solid #ffffff;
@@ -72,7 +83,7 @@ header {
 	justify-content: center;
 }
 header img {
-	width: 120px;
+	width: 200px;
 	height:	auto;
 	margin-top:5px;
 	padding: 15px;
