@@ -1,1 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an assignment page for the weather site home page of week 11 in WDD 230.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Home page</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo for the CHAMBER OF DURAN CITY">    
+    </header>  
+<nav>
+    <ul class="navigation">
+        <li><a class="ham" href="#">☰ Menu</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="duran.html">Durán</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="Ccontact.html">Contact</a></li>
+    </ul>
+</nav>
+<main>
+    <div id="heroArea">
+        <img src="images/portada.png" alt="image of weather change in idaho" sizes="100vw">
+        <section id="weatherSummary">
+                        <h3>Resumen del tiempo</h3>
+                        <label>Actualmente:</label> <p><span id="desPreston"></span></p>
+                        <label>Temperatura:</label> <p><span id="temperaturePreston"></span>&deg;F</p>
+                        <label>Escalofríos</label><p><span id="windChill"></span></p>
+                        <label>Humedad:</label> <p><span id="humidityPreston"></span>%</p>
+                        <label>Velocidad del viento:</label> <p><span id="windSpeedPreston"></span> mph</p>
+        </section>
+    </div>
+<nav>
+    <h1>COMERCIO LOCAL</h1>
+</nav>
+<div class="row1">
+    <div class="col">
+        <h3>Mercado las Manuelas</h3>
+        <img src="images/mercado.jpg" alt="imagen de la vista mercado manuelas">
+        <p>La ciudad de Durán abrió este viernes 1 de mayo las puertas del primer mercado aclimatado de la provincia de Guayas. El centro de acopio cuenta con 392 locales, escaleras eléctricas, sistema contra incendios y un programa de separación de desechos.</p>
+    </div>
+    <div class="col">
+        <h3>El palacio de la fritada</h3>
+        <img src="images/fritada.jpg" alt="la fritada mas famosa de duran">
+        <p>Es uno de los sitios más populares en el cantón Durán. Desde hace 50 años deleitan al público con la apetecida fritada. Los esposos Gloria y Carlos son la cuarta generación que continúa con esta tradición familia.</p>
+    </div>
+    <div class="col">
+        <h3>Plaza Durán</h3>
+        <img src="images/plaza.jpeg" alt="la fritada mas famosa de duran">
+        <p>El lugar cuenta con un Rooftop karaoke que se activará por las noches, zona de parqueadero y más de 20 locales comerciales entre: comida, heladería, tecnología, moda, belleza, medicina, ocio, entre otras categorías.</p>
+    </div>
+</div>
+<div id="forcastArea">
+    <h3>PRONOSTICO 5 DIAS</h3>
+    <div id="forcastFive">
+        <div class="forcastCol">
+            <p class="forcastDay"><span id="dayWeek1"></span></p>
+            <img id="icon1" src="" alt="">
+            <p class="forcastTemp"><span id="forecast1"></span>&deg;F</p>
+        </div>
+        <div class="forcastCol">
+            <p class="forcastDay"><span id="dayWeek2"></span></p>
+            <img id="icon2" src="" alt="">
+            <p class="forcastTemp"><span id="forecast2"></span>&deg;F</p>
+        </div>
+        <div class="forcastCol">
+            <p class="forcastDay"><span id="dayWeek3"></span></p>
+            <img id="icon3" src="" alt="">
+            <p class="forcastTemp"><span id="forecast3"></span>&deg;F</p>
+        </div>
+        <div class="forcastCol">
+            <p class="forcastDay"><span id="dayWeek4"></span></p>
+            <img id="icon4" src="" alt="">
+            <p class="forcastTemp"><span id="forecast4"></span>&deg;F</p>
+        </div>
+        <div class="forcastCol">
+            <p class="forcastDay"><span id="dayWeek5"></span></p>
+            <img id="icon5" src="" alt="">
+            <p class="forcastTemp"><span id="forecast5"></span>&deg;F</p>
+        </div>
+    </div>
+</div>
+<div id="afiliate-socio"> 
+    <div class="row">
+        <div class="col-1">
+            <h2>
+                SE PARTE DE LA CAMARA Y DESCUBRE NUEVAS OPORTUNIDADES PARA TU EMPRESA
+            </h2>
+        </div>
+        <div class="col-1a">
+            <h1>¡Haste socio ya!</h1>
+            <label class="label">
+                <input id="submit" type="AFILIATE " name="SOCIO" value="submit" formaction="./thank-page.html" formtarget="_blank">
+            </label>
+        </div>
+    </div>   
+</div>
+</div>
+<div id="articleArea1">    
+    <h3>NUESTRO OBJETIVO</h3>
+    <figure class="articleImg">
+        <img src="images/objetivo.jpg" alt="picture our shy subject of article!" loading="lazy">
+    </figure>
+    <p>Impulsar el desarrollo del comercio, de las fuentes de riqueza y de los negocios en general; procurar la prosperidad de sus socios, a quienes prestará respaldo y cooperación para el desarrollo de sus actividades, y los servicios necesarios dentro de las disposiciones legales y del presente estatuto; ejercer una influencia cívica que redunde en el desarrollo de la ciudad de Durán y la consecución de sus objetivos socio-económicos y culturales; así como los de todo el país.</p>
+</div>
+<div id="articleArea2">    
+    <h3>PROXIMOS EVENTOS</h3>
+    <figure class="articleImg">
+        <img src="images/eventos.jpg" alt="picture our shy subject of article!" loading="lazy">
+    </figure>
+    <P>Al desfile del 16 de octubre se incorporaron esta vez alegorías de símbolos duraneños. Eloy Alfaro, el cerro Las Cabras y el ferrocarril fueron representaciones contempladas para el homenaje a la ciudad por el aniversario 112 de parroquialización. Durán, hoy el segundo cantón más poblado de Guayas, alcanzó esa categoría, la de parroquia rural, el 16 de octubre de 1902, entonces con pertenencia a Guayaquil.</P>
+</div>
+</main>
+<div id="contactArea">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9482.626674230485!2d-79.8013016256188!3d-2.171421769393467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6b8cf34c35b3%3A0xa704e25cf4acac18!2sDuran%20Ecuador!5e0!3m2!1ses!2sec!4v1639458612426!5m2!1ses!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+        <section id="contactTextArea">
+            <h3>CONTACTO DE INFORMACION</h3>
+            <p>Avenida nicolas lapenti 236<br>R6H2+42 Durán<br>Duran-Ecuador</p>
+            <p>☎ (+593)991547200<br>✉ duranCDC@gob.ec</p>
+        </section>
+</div>
+<footer>
+    <p>&copy; 2021-CHAMBER DURÁN | Stephany Zamora <br> Data online:<a href="https://openweathermap.org/">Open Weather Map</a><br><p  class="updatedDate">Last Updated:28/11/2021  Time: 0:08 am <span id="dateOutput"></span></p>
+    <div>
+        <a href="https://facebook.com/" target="_blank"><img class="socialIcon" src="images/facebook.png" alt="facebook icon">&ensp;</a>
+        <a href="https://twitter.com/" target="_blank"><img class="socialIcon" src="images/twitter.png" alt="twitter icon"></a>
+    </div>
+</p>
+</footer> 
 
+<script src="js/home.js"></script>
+<script src="js/all.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Oxygen:wght@400;700&display=swap');
+    </style>
+<script>WebFont.load({google: {families: ["Bree Serif"]}});</script>
+<script>WebFont.load({google: {families: ["Oxygen"]}});</script>
+</body>
+</html>
