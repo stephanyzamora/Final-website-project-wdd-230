@@ -76,8 +76,9 @@ header {
 header img {
 	width: 200px;
 	height:	auto;
-	margin-top:5px;
+	margin: top 4px;
 	padding: 15px;
+	align-content: center;
 }
 
 /*header navigation */
