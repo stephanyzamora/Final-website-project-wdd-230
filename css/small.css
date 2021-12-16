@@ -46,10 +46,12 @@ footer a:hover {
 }
 /* home page*/
 #comercio {
-	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #1b4965;
+}
+#comercio h1{
+	text-align: center;
 }
 /*
   .col1{
