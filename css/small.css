@@ -65,6 +65,12 @@ justify-content: center;
 	background-color: #62b6cb;
 	border-top:5px solid #BC9320;
 
+	;
+}
+.two-columns{
+	font-size: 30px;
+	text-align: center;
+	color:#ffffff;
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
@@ -81,12 +87,7 @@ justify-content: center;
     line-height: 2;
     margin-bottom: 20px;
     text-align: center;
-	box-sizing: border-box;
-}
-.three-columns{
-	font-size: 30px;
-	text-align: center;
-	color:#ffffff;
+	box-sizing: border-box
 
 }
 
