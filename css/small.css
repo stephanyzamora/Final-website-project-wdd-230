@@ -74,7 +74,7 @@ header {
 	justify-content: center;
 }
 header img {
-	width: 200px;
+	width: 500px;
 	height:	auto;
 	margin: top 4px;
 	padding: 15px;
@@ -146,7 +146,7 @@ footer p {
 	position: relative;
 }
 #heroArea img {
-	width: 100%;
+	width: 60%;
 	height:	auto;
 }
 #weatherSummary {
