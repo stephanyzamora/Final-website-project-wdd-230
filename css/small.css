@@ -48,21 +48,21 @@ justify-content: center;
 }
 
 .col1 img{
-	width: 65%;
-	height: auto;
+	width: 200px;
+	height: 220px;
 	border: 8px solid #e2e2e2;
 	box-shadow:0.5 0.5 8px #494949;
 	
 }
 .col2 img{
-	width: 85%;
-	height: auto;
+	width: 200px;
+	height: 220px;
 	border: 8px solid #e2e2e2;
 	box-shadow:0.5 0.5 8px #494949;
 }
 .col3 img{
-	width: 65%;
-	height: auto;
+	width: 200px;
+	height: 220px;
 	border: 8px solid #e2e2e2;
 	box-shadow: 8px #494949;
 }
@@ -82,7 +82,7 @@ h3 {
 	color: #BC9320
 }
 p {
-	font-size: 25px;
+	font-size: 23px;
   color:#231942
 }
 a {
