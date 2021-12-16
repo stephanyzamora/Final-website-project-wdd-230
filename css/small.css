@@ -32,17 +32,14 @@ body, p{
     margin: 20px;
     margin: 2rem;
 
-	font-size: 15px;
-    font-size: 1.5rem;    
     line-height: 1.333333334;
-    margin-bottom: 20px;
-    margin-bottom: 2rem;
+    margin-bottom: 50px;
+    margin-bottom: 10rem;
     text-align: justify;
-	box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box
 
 }
+
 .col1 img{
 	width: 65%;
 	height: auto;
@@ -67,20 +64,20 @@ body, p{
 
 /* typography */
 h1 {
-	font-size: 20px;
+	font-size: 60px;
 	color: #ffffff;
 }
 
 h2 {
-	font-size: 16px;
+	font-size: 36px;
 	color: #ffffff;
 }
 h3 {
-	font-size: 14px;
+	font-size: 40px;
 	color: #BC9320
 }
 p {
-	font-size: 12px;
+	font-size: 25px;
   color:#231942
 }
 a {
@@ -278,7 +275,6 @@ iframe {
 	text-align: center;
 	border: 5px solid #1b4965;
 	border-radius: 10px;
-
 }
 #thankcard h1{
 	color: #BC9320;
