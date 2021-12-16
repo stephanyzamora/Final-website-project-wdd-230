@@ -7,7 +7,6 @@ body, p{
   font-family: 'Oxygen', sans-serif;
 }
 main {
-	max-width: 80em;
 	margin: 0 auto;
 	padding: 10px;
   display: flex;
@@ -52,6 +51,7 @@ footer a:hover {
 }
 #comercio h1{
 	text-align: center;
+	font-family: 'Bree Serif';
 }
 /*
   .col1{
