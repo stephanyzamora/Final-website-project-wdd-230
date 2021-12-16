@@ -406,3 +406,33 @@ iframe {
 nav{
 	background-color: #62b6cb;
 }
+.eventBorder {
+	max-width: 400px;
+	align-content: center;
+	margin: 15px auto;
+	padding: 15px;
+	overflow: auto;
+}
+.eventArea {
+	border: 2px solid #bec6c9;
+	background: #BC9320;
+	margin: 10px;
+	padding: 15px;
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.eventArea h3 {
+	margin-bottom: 0;
+	color:#ffffff;
+	font-size: 20px;
+}
+.eventArea li {
+	list-style-type: square;
+}
+.eventArea ul {
+	padding-left: 10px;
+	padding-right: 10px;
+}
