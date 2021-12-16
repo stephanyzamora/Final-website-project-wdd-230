@@ -64,30 +64,29 @@ justify-content: center;
 #afiliate-socio{
 	background-color: #62b6cb;
 	border-top:5px solid #BC9320;
-
-	;
+	margin-left:100px;
+	margin-right:100px;
 }
 .two-columns{
 	font-size: 30px;
 	text-align: center;
 	color:#ffffff;
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-    
-    -webkit-column-gap: 35px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 35px; /* Firefox */
-    column-gap: 35px;
-
-	margin: 60px;
-    margin: 10rem;
-display: inline-block;
-align-items: center;
-justify-content: center;
-    line-height: 2;
-    margin-bottom: 20px;
-    text-align: center;
-	box-sizing: border-box
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+	-webkit-column-gap: 5px; /* Chrome, Safari, Opera */
+	-moz-column-gap: 5px; /* Firefox */
+	column-gap: 5px;
+	margin: 10px;
+	margin: 10rem;
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	/* line-height: 2; */
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align: center;
+	box-sizing: border-box;
 
 }
 
