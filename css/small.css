@@ -5,12 +5,9 @@ body h2, h3{
 }
 body, p{
   font-family: 'Oxygen', sans-serif;
+  display: block;
 }
-main {
-	margin: 0 auto;
-	padding: 10px;
-  display: flex;
-}
+
 /* typography */
 h1 {
 	font-size: 20px;
