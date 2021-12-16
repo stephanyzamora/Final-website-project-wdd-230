@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is an assignment page for the weather site home page of week 11 in WDD 230.">
+    <meta name="description" content="This is an assignment page for the CHAMBER of CITY duran">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -27,7 +27,10 @@
 </nav>
 <main>
     <div id="heroArea">
-        <img src="images/header-image.jpg" alt="image of weather change in idaho" sizes="100vw">
+        <img src="images/header-image.jpg" alt="image of weather change in idaho" sizes="100vw"
+        srcset="images/header-image.jpg 400w,
+                    images/header-image.jpg 800w,
+                    images/header-image.jpg 1280w">>
         <section id="weatherSummary">
                         <h3>Resumen del tiempo</h3>
                         <label>Actualmente:</label> <p><span id="desPreston"></span></p>
@@ -37,9 +40,10 @@
                         <label>Velocidad del viento:</label> <p><span id="windSpeedPreston"></span> mph</p>
         </section>
     </div>
-<nav>
+
+<div id="comercio" style="display: block;">
     <h1>COMERCIO LOCAL</h1>
-</nav>
+</div>
 <div class="">
     <div class="col1">
         <h3>Mercado las Manuelas</h3>
