@@ -63,6 +63,11 @@ justify-content: center;
 	border: 8px solid #e2e2e2;
 	box-shadow: 8px #494949;
 }
+.three-columns{
+	font-size: 30px;
+	text-align: center;
+
+}
 
 /* typography */
 h1 {
