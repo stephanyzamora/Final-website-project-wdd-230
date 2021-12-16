@@ -10,7 +10,7 @@
         font-size: 30px;
     }
     p, label {
-        font-size: 16px;
+        font-size: 30px;
     }
     /* heading */
     header img {
@@ -38,7 +38,7 @@
     }
     /* footer */
     footer p {
-        font-size: 20px;
+        font-size: 30px;
     }
     /* hero area */
     #weatherSummary {
