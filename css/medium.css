@@ -1,4 +1,5 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 480px) {
+
     /* typography */
     h1 {
         font-size: 30px;
@@ -15,7 +16,7 @@
     }
     /* heading */
     header img {
-        width: 500px;
+        width: 300px;
     }
     .headings h1 {
         font-size: 45px;
@@ -37,6 +38,9 @@
     nav ul {
         flex-flow: row wrap;
     }
+    #comercio{
+        width: auto;
+    }
     /* footer */
     footer p {
         font-size: 30px;
@@ -48,6 +52,9 @@
     /* five day forcast area */
     #forcastArea {
         display: block;
+    }
+    #afiliate-socio{
+        display: none;
     }
     /* article area */
     .articleImg {
@@ -61,5 +68,15 @@
     }
     #contactTextArea {
         grid-column: 2 / 3;	
+    }
+    #articleArea1{
+
+        display: block;
+
+    }
+    #contactArea{
+        display: block;
+
+
     }
 }
